@@ -1,0 +1,41 @@
+{
+  "name": "ember-ancestry",
+  "description": "An ember-cli family tree visualisation application",
+  "keywords": [
+    "ancestry",
+    "ember-cli",
+    "family-tree",
+    "firebase"
+  ],
+  "website": "https://ember-ancestry.com",
+  "repository": "https://github.com/tomasbasham/ember-ancestry",
+  "logo": "https://cdn.tomasbasham.co.uk/ember-ancestry.svg",
+  "success_url": "/",
+  "env": {
+    "FIREBASE_API_KEY": {
+      "description": "The API key for the firebase instance",
+      "required": true
+    },
+    "FIREBASE_AUTH_DOMAIN": {
+      "description": "The authentication domain for the firebase instance",
+      "required": true
+    },
+    "FIREBASE_DATABASE_URL": {
+      "description": "The URL for the firebase instance.",
+      "required": true
+    },
+    "FIREBASE_STORAGE_BUCKET": {
+      "description": "The storage bucket for the firebase instance.",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [{
+    "url": "https://codon-buildpacks.s3.amazonaws.com/buildpacks/heroku/emberjs.tgz"
+  }]
+}

@@ -2,14 +2,14 @@
   "name": "ember-ancestry",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for ember-ancestry goes here",
+  "description": "An ember-cli family tree visualisation application",
   "license": "MIT",
-  "author": "",
+  "author": "Tomas Basham <me@tomasbasham.co.uk>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "repository": "https://github.com/tomasbasham/ember-ancestry",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js app config lib server tests",

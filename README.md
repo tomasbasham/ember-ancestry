@@ -1,7 +1,7 @@
-# ember-ancestry
+# ember-ancestry [![Build Status](https://travis-ci.org/tomasbasham/ember-ancestry.svg?branch=master)](https://travis-ci.org/tomasbasham/ember-ancestry)
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+An [Ember CLI](http://www.ember-cli.com/) family tree visualisation
+application.
 
 ## Prerequisites
 
@@ -40,7 +40,12 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+For simple deployment to [Heroku](https://www.heroku.com/) use the "Deploy to
+Heroku" button below. You will need a [Firebase](https://firebase.google.com/)
+project and the API credentials to use as environment variables that can be set
+through the Heroku protal.
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Further Reading / Useful Links
 
